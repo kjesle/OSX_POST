@@ -44,6 +44,8 @@ brew cask install electrum
 brew cask install skype
 brew cask install transmission
 brew cask install virtualbox
+brew cask install vagrant
+brew cask install macvim
 brew cask install vlc
 brew cask install webstorm
 brew cask install intellij-idea
