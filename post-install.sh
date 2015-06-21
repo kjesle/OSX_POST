@@ -52,9 +52,9 @@ brew tap caskroom/versions
 brew cask install sublime-text3
 
 
-## INSTALL OH MY ZSH AND SET ZSH AS DEFAULT SHELL
-## wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
-## RUN A MACOS UPDATE
+## OH MY ZSH
+wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+## MACOS UPDATE
 sudo softwareupdate --install -all
 
 ## Meteor
