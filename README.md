@@ -2,12 +2,32 @@
 
 This repo contains different settings and dot-files that should be installed after a clean install of OSX.
 
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
-##dot-files
+## Command Line ##
 
-##Sublime files
-Settings for sublime, snippets, Latexing-plugin settings, etc.
-Environment settings -> i.e do not show .aux files in Sublime project for a latex environment.
++ Font: [Inconsolata](https://github.com/powerline/fonts)
 
-##Webstorm
-Snippets for Webstorm
++ Theme: [Cobalt2](https://github.com/wesbos/Cobalt2-iterm)
+
++ Font-size: 14
+
++ Shell: [Oh-my-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+## Sublime Text ##
+Packages: 
+
++ Git
++ GitGutter
++ LaTeXing
++ Cobalt2
++ Emmet
++ Babel
++ SublimeLinter
++ Markdown Preview
++ ProjectManager
++ AdvancedNewFile
++ EditorConfig
+
+## Applications ##
++ Wunderlist
++ Webstorm
++ IntelliJ IDEA
