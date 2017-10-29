@@ -13,44 +13,79 @@ read -p "Press any key to continue." -n1 -s
 
 ### CLI tools
 brew update
-
+brew install fish
 brew install gcc
 brew install git
+brew install git-flow
+brew install gradle
+brew install jenv
+brew install node
+brew install maven
+brew install nvm
+brew install python3
+brew install the_silver_searcher
+brew install thefuck
+brew install tmux
+brew install yarn
 brew install tree
 brew install unrar
 brew install wget
-brew install zsh-completions
 
-### Cask
+### Casks
+### Developer
 brew cask install java
-brew cask install 1password
-brew cask install firefox
+brew cask install java6
+brew cask install java7
+brew cask install java8
 brew cask install iterm2	
-brew cask install google-chrome
-brew cask install caffeine
-brew cask install dropbox
-brew cask install opera
 brew cask install postgres
-brew cask install slack
-brew cask install spotify
 brew cask install virtualbox
 brew cask install vagrant
-brew cask install macvim
-brew cask install vlc
-brew cask install atom
+brew cask install visual-studio-code
 brew cask install sublime-text3
+brew cask install docker
+brew cask install kitematic
+brew cask install intellij-idea
+brew cask install postman
+brew cask install gitkraken
+brew cask install cyberduck
+brew cask install jetbrains-toolbox
+brew cask install soapui
+
+### Browsers
+brew cask install firefox
+brew cask install firefoxdeveloperedition
+brew cask install google-chrome
+
+### Div
+brew cask install karabiner-elements
+brew cask install calibre
+brew cask install omnifocus
+brew cask install fantastical
+brew cask install 1password
+brew cask install evernote
+brew cask install caffeine
+brew cask install dropbox
+brew cask install slack
+brew cask install spotify
+brew cask install vlc
 brew cask install spectacle
 brew cask install malwarebytes-anti-malware
-brew cask install docker
 
+### Quick Look Plugins
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install quicklook-csv
+brew cask install betterzipql
 
-## OH MY ZSH
-wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+### Fonts
+brew cask install font-fira-code
+brew cask install font-open-sans
+
 ## MACOS UPDATE
 sudo softwareupdate --install -all
-
-## Meteor
-curl https://install.meteor.com/ | sh
 
 echo ""
 echo "Disabling press-and-hold for keys in favor of a key repeat"
